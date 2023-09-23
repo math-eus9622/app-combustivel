@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editLitros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Litros Vendidos"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editPrecoLitro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço do Litro"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinnerCombustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Combustível" />
+
+    <Spinner
+        android:id="@+id/spinnerPagamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Forma de Pagamento" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcularPrecoTotal"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Resultado:"
+        android:textSize="18sp" />
+
+</LinearLayout>

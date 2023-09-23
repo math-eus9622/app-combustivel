@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">App de combustivel 2</string>
+    <string-array name="tipos_combustivel">
+        <item>Gasolina</item>
+        <item>Alcool</item>
+        <item>Diesel</item>
+    </string-array>
+    <string-array name="formas_pagamento">
+        <item>Credito</item>
+        <item>Debito</item>
+        <item>Pix</item>
+        <item>Especie</item>
+    </string-array>
+</resources>
